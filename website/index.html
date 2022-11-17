@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Index
+
+    </title>
+</head>
+
+<body>
+
+    <form method="post">
+        Name: <input type="text" name="name">
+        <button>Send</button>
+
+    </form>
+
+    <script>
+        const form = document.querySelector('form')
+        form.addEventListener('submit', async(e) => {
+            e.preventDefault()
+                //get value
+            const name = form.name.value
+            try {
+                fetch("https://o1tgiuzjaj.execute-api.us-east-1.amazonaws.com/prod/hello/" + name, {
+                    method: 'GET',
+
+                }).then(location.replace("https://o1tgiuzjaj.execute-api.us-east-1.amazonaws.com/prod/hello/" + name))
+
+
+            } catch (error) {
+                console.log(error.message)
+            }
+        })
+    </script>
+</body>
+
+</html>
