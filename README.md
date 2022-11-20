@@ -19,7 +19,7 @@ and type the access key ID and secret key and choose a default region (you can u
 ## To run project
 1- To clone project in to your system and run `git clone https://github.com/Arifi512/simple-hello.git` into a location
 
-2- Synthesize project with `cdk synth' command
+2- Synthesize project with `cdk synth` command
 
 3- Use `cdk bootstrap` in first time to deploy project
 
