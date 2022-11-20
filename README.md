@@ -17,11 +17,11 @@ and type the access key ID and secret key and choose a default region (you can u
 5 - we’ll install the AWS CDK Toolkit with `npm install -g aws-cdk`
 
 ## To run project
-1- Clone project in to your system and run `git clone https://github.com/Arifi512/simple-hello.git` into a location
+1- To clone project in to your system and run `git clone https://github.com/Arifi512/simple-hello.git` into a location
 
 2- Synthesize project with `cdk synth' command
 
-3- Use `cdk bootstrap' in first time to deploy project
+3- Use `cdk bootstrap` in first time to deploy project
 
 4- And finally run `cdk deploy` to deploy project in AWS Cloud service
 
